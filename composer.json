@@ -1,0 +1,25 @@
+{
+    "name": "vendor_name/blogs",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "user",
+            "email": "email@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Framework\\": "framework/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.4"
+
+    },
+    "require": {
+        "illuminate/database": "^8.83"
+    }
+}
